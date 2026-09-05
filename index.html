@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>XEM NGÀY CAO CẤP - Mobile</title>
+    <title>XEM NGÀY CAO CẤP - TIEN.TQN</title>
     <link rel="stylesheet" href="mobile-style.css">
 </head>
 <body>
@@ -79,7 +79,7 @@
                 <!-- TẦNG 1: THÁNG & TIẾT KHÍ & CAN CHI -->
                 <div class="m-accordion">
                     <div class="m-accordion-header" onclick="toggleAccordion('acc-layer1')">
-                        <span>🌿 TẦNG 1: THÁNG, CAN/CHI & TIẾT KHÍ</span>
+                        <span>🌿 1: THÁNG, CAN/CHI & TIẾT KHÍ</span>
                         <span class="m-badge m-badge--sm" id="badge-layer1" style="display:none;">0</span>
                         <span class="m-chevron m-chevron--sm" id="acc-layer1-chevron">▼</span>
                     </div>
@@ -94,7 +94,7 @@
                 <!-- TẦNG 2: TỐI ƯU HÀNH & VẬN & CHI -->
                 <div class="m-accordion">
                     <div class="m-accordion-header" onclick="toggleAccordion('acc-layer2')">
-                        <span>⚡ TẦNG 2: TỐI ƯU HÀNH, VẬN & CHI</span>
+                        <span>⚡ 2: TỐI ƯU HÀNH, VẬN & CHI</span>
                         <span class="m-badge m-badge--sm" id="badge-layer2" style="display:none;">0</span>
                         <span class="m-chevron m-chevron--sm" id="acc-layer2-chevron">▶</span>
                     </div>
@@ -109,7 +109,7 @@
                 <!-- TẦNG 3: HUYỀN KHÔNG ĐẠI QUÁI - HUYẾT THỐNG QUÁI -->
                 <div class="m-accordion">
                     <div class="m-accordion-header" onclick="toggleAccordion('acc-layer3')">
-                        <span>👨‍👩‍👧‍👦 TẦNG 3: HUYẾT THỐNG QUÁI</span>
+                        <span>👨‍👩‍👧‍👦 3: HUYẾT THỐNG QUÁI</span>
                         <span class="m-badge m-badge--sm" id="badge-layer3" style="display:none;">0</span>
                         <span class="m-chevron m-chevron--sm" id="acc-layer3-chevron">▶</span>
                     </div>
@@ -135,7 +135,7 @@
                     <span id="stat-gio">0 giờ</span>
                     <button class="m-btn m-btn--sm m-btn--outline" onclick="showSelectedList()">Đã chọn (<span id="selected-count">0</span>)</button>
                     <button class="m-btn m-btn--sm m-btn--cherry" onclick="printSelected()">  🖨️  </button>
-                    <button class="m-btn m-btn--sm m-btn--outline" onclick="clearAllFilters()">  🔄  </button>
+                    <button class="m-btn m-btn--sm m-btn--outline" onclick="clearAllFilters()">  🗑️  </button>
                 </div>
                 <div id="results-container" class="m-results-container"></div>
                 <button class="m-btn m-btn--outline m-btn--full" id="btn-load-more" style="display:none;" onclick="loadMoreResults()">📥 TẢI THÊM NGÀY</button>
@@ -174,7 +174,7 @@
     <div class="m-print-signature">
         <img src="antrien.png" alt="Ấn triện" class="m-print-seal">
         <div class="m-print-signer">
-            <div class="m-print-signer-name">TIEN.TQN</div>
+            <div class="m-print-signer-name" id="print-signer-name">TIEN.TQN</div>
             <div class="m-print-signer-title">Hiệu DƯƠNG MINH</div>
         </div>
     </div>
